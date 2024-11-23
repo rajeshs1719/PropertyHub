@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import styles from '../StyleContainer/Modal.module.css'
-import PropertyRegi from '../Assessts/realestate.png'
-function Modal({ onClose }) {
+
+function Modal({ onClose, title, description, logoSrc }) {
     const modalRef = useRef();
 
     const closeModal = (e) => {
@@ -17,11 +17,11 @@ function Modal({ onClose }) {
                 <div className={styles.ModalContent}>
                     <div className={styles.ModalFlex}>
                         <div className={styles.modalIcon}>
-                        <img src={PropertyRegi} alt={`Property Registraion Icon`} className={styles.logo} />
+                            <img src={logoSrc} alt={`Property Registraion Icon`} className={styles.logo} />
                         </div>
-                        <h1 className={styles.ModalTitle}>Property Registration</h1>
+                        <h1 className={styles.ModalTitle}>{title}</h1>
                     </div>
-                    <p className={styles.ModalDiscription}>Simplify property transactions with our expert assistance. From document verification to post-registration formalities, we’ve got you covered.</p>
+                    <p className={styles.ModalDiscription}>{description}</p>
                     <h2>Document Verification</h2>
                     <ul>
                         <li>Stamp Duty Calculation</li>
@@ -36,9 +36,3 @@ function Modal({ onClose }) {
 }
 
 export default Modal
-
-
-
-
-
-

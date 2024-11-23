@@ -1,8 +1,8 @@
 .footer {
-  background-color: #d9d9d9;
+  z-index: 9999;
+  background-color: #e8c553;
   padding: 30px 60px 40px; 
   margin-top: 100px; 
-  z-index: 10000; 
 }
 
 .footerContent {
@@ -148,7 +148,7 @@
   }
 }
 .footerSection ul li a:hover {
-  color: #007bff; 
+  color: #0081CA; 
   padding: 5px; 
   transition: all 0.3s ease; 
 }
@@ -158,5 +158,10 @@
 }
 
 #footerListAlign{
-  margin-left: 10%;
+  margin-left: 20%;
+}
+
+.BgImage{
+  position: relative;
+  top: 100px;
 }
