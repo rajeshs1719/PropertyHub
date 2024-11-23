@@ -9,7 +9,7 @@ import KhathaChange from '../Assessts/document.png'
 import eSwathu from '../Assessts/collectibles.png'
 import SiteMerger from '../Assessts/innerjoinright.png'
 import ModalPop from './Modal.jsx'
-
+import BgBackground from '../Assessts/BuildingBg.jpg'
 
 function Services() {
 
@@ -49,7 +49,7 @@ function Services() {
   const ServiceDetails = [
     {
       title: "Property Registration",
-      description: "Simplify property transactions with our expert assistance. From document verification to post-registration formalities, we’ve got you covered.",
+
       heading: "Document Verification",
       List1: "Stamp Duty Calculation",
       List2: "Registration Process",
@@ -104,7 +104,7 @@ function Services() {
   ]
 
   return (
-    <section className={styles.services}>
+    <section id="service" className={styles.services}>
       <div className={styles.servicesHeader}>
 
         {/* Left Header Content */}
@@ -119,7 +119,7 @@ function Services() {
         {/* Right Image */}
         <div className={styles.imageContainer}>
           <div className={styles.backgroundImage}>
-            <img src={DiscussingImage} alt="Discussing Property Hub" className={styles.logoImage} />
+            <img src={BgBackground} alt="Discussing Property Hub" className={styles.logoImage} />
           </div>
 
           <img src={DiscussingImage} alt="Discussing Property Hub" className={styles.logoImage1} />
@@ -129,7 +129,7 @@ function Services() {
       {/* Service Cards Grid */}
       <div className={styles.servicesGrid}>
         {services.map((service, index) => (
-          <ServiceCard key={index} title={service.title} description={service.description} logoSrc={service.logoScr} />
+          <ServiceCard key={index} Service_title={service.title} description={service.description} logoSrc={service.logoScr} />
         ))}
       </div>
       {/* <div> */}

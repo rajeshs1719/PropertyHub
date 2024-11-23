@@ -4,7 +4,7 @@ import VillaImage from '../Assessts/Villa.png'
 
 function Hero() {
   return (
-    <section className={styles.hero}>
+    <section id = "home" className={styles.hero}>
       <div className={styles.HeroBox}>
 
         <div className={styles.heroContent}>

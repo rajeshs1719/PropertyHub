@@ -26,46 +26,46 @@
   }
 }
 
-/* Laptop/Desktop (1024px and below) */
 @media (max-width: 1024px) {
   .aboutUs {
-    padding: 0 25px; /* Adjust padding for laptops */
-    margin: 50px auto 0; /* Adjust margin for laptops */
-    justify-content: space-evenly; /* Evenly space items */
+    padding: 0 25px; 
+    margin: 50px auto 0; 
+    justify-content: space-evenly; 
   }
 }
 
-/* Large Desktop (above 1081px) */
 @media (min-width: 1082px) {
   .aboutUs {
-    padding: 0 30px; /* Increase padding for large screens */
-    margin: 60px auto 0; /* Adjust margin for large screens */
-    justify-content: space-between; /* Space items as needed */
+    padding: 0 30px; 
+    margin: 60px auto 0; 
+    justify-content: space-between; 
   }
 }
 
 
 .aboutContent {
-  flex: 1; /* Allows the content to grow and fill available space */
-  margin-right: 20px; /* Provides space on the right */
-  box-sizing: border-box; /* Ensures padding and margins are included in the element's total width */
+  flex: 1; 
+  margin: 10px; 
+  padding: 30px;
+  box-sizing: border-box; 
+  /* border: 5px solid maroon; */
 }
 
 @media (max-width: 768px) {
   .aboutContent {
-    margin-right: 15px; /* Reduce margin-right for tablet devices */
+    margin-right: 15px; 
   }
 }
 
 @media (max-width: 480px) {
   .aboutContent {
-    margin-right: 10px; /* Reduce margin-right for mobile devices */
+    margin-right: 10px; 
   }
 }
 
 @media (max-width: 1024px) {
   .aboutContent {
-    margin-right: 20px; /* Keep the default margin-right on smaller laptops */
+    margin-right: 20px; 
   }
 }
 
@@ -81,41 +81,41 @@
   letter-spacing: 1px;
   margin-bottom: 20px;
   text-align: justify;
+  /* border: 2px solid #0081CA; */
+  padding-right: 20px;
+
 }
 
-/* Tablet (768px and below) */
 @media (max-width: 768px) {
   .aboutTitle {
-    font-size: 32px; /* Reduce font size for tablets */
-    margin-bottom: 30px; /* Adjust margin for tablets */
+    font-size: 32px; 
+    margin-bottom: 30px; 
   }
 
   .aboutDescription {
-    font-size: 16px; /* Reduce font size for better readability */
-    letter-spacing: 0.5px; /* Slightly reduce letter-spacing */
-    margin-bottom: 15px; /* Adjust margin for tablets */
+    font-size: 16px; 
+    letter-spacing: 0.5px; 
+    margin-bottom: 15px; 
   }
 }
 
-/* Mobile (480px and below) */
 @media (max-width: 480px) {
   .aboutTitle {
-    font-size: 26px; /* Further reduce font size for mobile */
-    margin-bottom: 20px; /* Adjust margin for mobile */
+    font-size: 26px; 
+    margin-bottom: 20px; 
   }
 
   .aboutDescription {
-    font-size: 14px; /* Further reduce font size for mobile */
-    letter-spacing: 0.5px; /* Adjust letter-spacing for small screens */
-    margin-bottom: 10px; /* Adjust margin for mobile */
+    font-size: 14px; 
+    letter-spacing: 0.5px; 
+    margin-bottom: 10px;
   }
 }
 
-/* Laptop/Desktop (1024px and below) */
 @media (max-width: 1024px) {
   .aboutTitle {
-    font-size: 36px; /* Adjust font size for laptops */
-    margin-bottom: 35px; /* Adjust margin for laptops */
+    font-size: 36px; 
+    margin-bottom: 35px; 
   }
 
   .aboutDescription {
@@ -163,18 +163,6 @@
     padding-left: 5%; /* Adjust padding for better centering */
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 991px) {
   .aboutUs {

@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  
 }
 
 /* Chatgpt */
@@ -87,8 +88,9 @@
 .servicesGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 80px;
-
+  gap: 20px;
+  /* border: 2px solid blue; */
+  padding: 50px;
 }
 
 @media (max-width: 991px) {

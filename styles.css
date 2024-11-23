@@ -1,0 +1,1367 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:
+        0;
+}
+
+[data-gjs-type^="cj"]:empty {
+    background-color: #D4D4D8;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+}
+
+[data-gjs-type^="cj"]:empty::before {
+    content: "Add
+ content";background-color:#FFB26D;color:#000;font-size:16px;font-weight:bold;font-family:-apple-system,
+ system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", Roboto, "Helvetica
+ Neue", Helvetica, Arial,
+ sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+    padding: 0 10px;
+    opacity: 0.3;
+    border-radius: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#i2wlak {
+    transform: matrix(1, 0, 0, 1, -0.018266092985868454, -6.705522537231445e-7);
+}
+
+.property_hub_design_final_use_948_214 {
+    position: relative;
+    width: min(1280px,
+            100%);
+    height: 2918px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255,
+            255,
+            255);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.rectangle_29_953_575 {
+    transform: translate(-3px,
+            1658px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.rectangle_31_953_705 {
+    transform: translate(0px,
+            2636px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.rectangle_3_948_337 {
+    transform: translate(584px,
+            94px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 696px;
+    height: 553px;
+    object-fit: cover;
+    object-position: 0px -59.3px;
+}
+
+.rectangle_5_948_338 {
+    transform: translate(0px, 94px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.rectangle_4_948_118 {
+    transform: translate(0px,
+            0px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.home_948_315 {
+    transform: translate(811px,
+            42px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+.about_us_948_316 {
+    transform: translate(945px,
+            42px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+.contact_us_948_317 {
+    transform: translate(1111px,
+            42px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+.logo_property_hub_1_1_948_312 {
+    transform: translate(0px,
+            16px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 120px;
+    height: 76px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.propertyhub_948_313 {
+    transform: translate(120px, 34px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 32px;
+    font-family: Merriweather;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.welcome_to_property_hub_where_your_prope_948_343 {
+    transform: translate(108px,
+            363px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: justify;
+    vertical-align: top;
+    color: rgb(255,
+            255,
+            255);
+    font-size: 17px;
+    font-family: Poppins;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 160%;
+}
+
+.meet_your_real_estate_expert_948_349 {
+    transform: translate(107px,
+            187px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(255,
+            255,
+            255);
+    font-size: 45px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.at_property_hub_948_350 {
+    transform: translate(107px,
+            255px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(255,
+            255,
+            255);
+    font-size: 45px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.our_services_948_352 {
+    transform: translate(107px,
+            731px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: justify;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 25px;
+    font-family: Merriweather;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 140%;
+}
+
+.at_property_hub_we_offer_a_range_of_trus_948_355 {
+    transform: translate(107px,
+            927px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: justify;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 22px;
+    font-family: Lato;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.why_choose_us_948_549 {
+    transform: translate(465px,
+            1683px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: justify;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 40px;
+    font-family: Merriweather;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 140%;
+}
+
+.about_us_953_626 {
+    transform: translate(121px,
+            2116px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: justify;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 40px;
+    font-family: Merriweather;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 140%;
+}
+
+.our_team_of_experts_offers_honest_advice_948_551 {
+    transform: translate(283px,
+            1764px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: justify;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.hotel_1127-4031_1_948_367 {
+    transform: translate(776px,
+            726px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 431px;
+    height: 287.104px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.video-two-young-happy-colleagues_1_948_372 {
+    transform: translate(737px,
+            769px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 431px;
+    height: 287.104px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.group_13_948_373 {
+    transform: translate(145px, 1109px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 263px;
+    height: 189px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.rectangle_8_948_374 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.property_registration_948_427 {
+    z-index: 3;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.simplify_your_property_registration_proc_948_532 {
+    z-index: 4;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.group_21_948_494 {
+    transform: translate(145px,
+            1385px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 263px;
+    height: 189px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.rectangle_8_948_495 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.learn_more__960_93 {
+    z-index: 2;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(66,
+            66,
+            66);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.khatha__change_948_499 {
+    z-index: 4;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.easily_update_property_records_with_our__948_538 {
+    z-index: 5;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.group_19_948_429 {
+    transform: translate(508px,
+            1109px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 263px;
+    height: 189px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.rectangle_8_948_430 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.house_948_432 {
+    z-index: 2;
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+}
+
+.group_I948_432_948_417 {
+    z-index: 1;
+    width: 0px;
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.loans_948_434 {
+    z-index: 4;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.find_the_best_property_loan_options_with_948_534 {
+    z-index: 5;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.learn_more__960_83 {
+    z-index: 6;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(66,
+            66,
+            66);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.group_22_948_500 {
+    transform: translate(508px,
+            1385px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 263px;
+    height: 189px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.rectangle_8_948_501 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.e_-_swathu_948_530 {
+    z-index: 3;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.access_verified_property_records_with_ea_948_540 {
+    z-index: 4;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.learn_more__960_91 {
+    z-index: 5;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(66,
+            66,
+            66);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.group_20_948_442 {
+    transform: translate(871px,
+            1109px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 263px;
+    height: 189px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.rectangle_8_948_443 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.building__licence_948_447 {
+    z-index: 3;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.we_assist_you_in_obtaining_building_lice_948_536 {
+    z-index: 4;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.learn_more__960_85 {
+    z-index: 5;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(66,
+            66,
+            66);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.group_23_948_506 {
+    transform: translate(871px,
+            1385px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 263px;
+    height: 189px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.rectangle_8_948_507 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.site_merger__bifurcation_948_511 {
+    z-index: 3;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.navigate_property_mergers_or_divisions_s_948_542 {
+    z-index: 4;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.learn_more__960_87 {
+    z-index: 5;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(66,
+            66,
+            66);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.at_property_hub_were_more_than_just_a_se_953_629 {
+    transform: translate(121px,
+            2215px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: justify;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 19px;
+    font-family: Lato;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 140%;
+}
+
+.what_sets_us_apart_is_our_dedication_to__953_633 {
+    transform: translate(121px,
+            2378px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: justify;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 19px;
+    font-family: Lato;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 140%;
+}
+
+.group_25_953_748 {
+    transform: translate(661px,
+            2670px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 99.9024px;
+    height: 173px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.heading_2__quick_links_953_706 {
+    z-index: 1;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(26,
+            26,
+            26);
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 22.8px;
+}
+
+.item__link__about_953_708 {
+    z-index: 2;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+
+.item__link__contact_953_709 {
+    z-index: 3;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+
+.item__link__faqs_953_710 {
+    z-index: 4;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+
+.group_30_953_753 {
+    transform: translate(91px,
+            2670px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 432px;
+    height: 173px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.heading_2__quick_links_953_720 {
+    z-index: 1;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(26,
+            26,
+            26);
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 22.8px;
+}
+
+.group_29_953_752 {
+    z-index: 2;
+    width: 149px;
+    height: 119px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.item__link__about_953_722 {
+    z-index: 1;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+
+.item__link__contact_953_740 {
+    z-index: 2;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+
+.item__link__about_953_746 {
+    z-index: 3;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+
+.group_28_953_751 {
+    z-index: 3;
+    width: 193px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.item__link__faqs_953_741 {
+    z-index: 1;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+
+.item__link__contact_953_744 {
+    z-index: 2;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+
+.item__link__faqs_953_734 {
+    z-index: 3;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+
+.group_27_953_750 {
+    transform: translate(899px,
+            2681px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 283px;
+    height: 133px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.heading_2__our_address_953_717 {
+    z-index: 1;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(26,
+            26,
+            26);
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.th_cross_opp_annapoorna_dabha_sri_nijali_953_718 {
+    z-index: 2;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28.5px;
+}
+
+.learn_more__959_177 {
+    transform: translate(306px,
+            1269px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(66,
+            66,
+            66);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.expert_solutions_for_every_property_mile_959_195 {
+    transform: translate(107px,
+            790px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: justify;
+    vertical-align: top;
+    color: rgb(0,
+            0,
+            0);
+    font-size: 36px;
+    font-family: Lato;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 140%;
+}
+
+.abtus-removebg-preview_1_959_197 {
+    transform: translate(781px,
+            2108px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 421px;
+    height: 408px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.group_41_960_79 {
+    transform: translate(999px, 1911px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 231px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.group_40_960_77 {
+    z-index: 1;
+    width: 231px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.group_38_960_74 {
+    z-index: 1;
+    width: 231px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.group_36_960_69 {
+    z-index: 1;
+    width: 231px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.heading_3__list_your_own_property_953_592 {
+    z-index: 1;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(26,
+            26,
+            26);
+    font-size: 18px;
+    font-family: Merriweather;
+    font-weight: 700;
+    line-height: 22.8px;
+}
+
+.we_simplify_every_step_of_your_property__959_200 {
+    z-index: 2;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(66,
+            66,
+            66);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.group_34_960_67 {
+    transform: translate(395px,
+            1844px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 233px;
+    height: 167px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.heading_3__experienced_agents_953_584 {
+    z-index: 2;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(26,
+            26,
+            26);
+    font-size: 18px;
+    font-family: Merriweather;
+    font-weight: 700;
+    line-height: 22.8px;
+}
+
+.we_listen_to_your_needs_and_tailor_our_s_959_202 {
+    z-index: 3;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(66,
+            66,
+            66);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.group_39_960_75 {
+    transform: translate(703px,
+            1844px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 230px;
+    height: 171px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.group_24_953_622 {
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.images-removebg-preview_2_953_612 {
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.images-removebg-preview_3_953_614 {
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.images-removebg-preview_4_953_616 {
+    z-index: 3;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.images-removebg-preview_5_953_618 {
+    z-index: 4;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.images-removebg-preview_6_953_620 {
+    z-index: 5;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.heading_3__buy_or_rent_homes_953_588 {
+    z-index: 2;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(26,
+            26,
+            26);
+    font-size: 18px;
+    font-family: Merriweather;
+    font-weight: 700;
+    line-height: 22.8px;
+}
+
+.our_experienced_team_provides_trusted_ad_959_204 {
+    z-index: 3;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(66,
+            66,
+            66);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.group_37_960_72 {
+    transform: translate(85px,
+            1911px) rotate(0deg) scale(1, 1);
+    transform-origin: left top;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 228px;
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.group_33_960_65 {
+    z-index: 1;
+    width: 228px;
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.heading_3__find_your_future_home_953_580 {
+    z-index: 1;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(26,
+            26,
+            26);
+    font-size: 18px;
+    font-family: Merriweather;
+    font-weight: 700;
+    line-height: 22.8px;
+}
+
+.we_provide_trusted_solutions_backed_by_e_959_206 {
+    z-index: 2;
+    text-align: center;
+    vertical-align: top;
+    color: rgb(66,
+            66, 66);
+    font-size: 11px;
+    font-family: Lato;
+    font-weight: 800;
+    letter-spacing: 3px;
+}

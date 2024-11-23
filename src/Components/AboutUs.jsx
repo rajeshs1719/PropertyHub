@@ -5,7 +5,7 @@ import AboutUsImg from '../Assessts/AboutUs.png'
 
 function AboutUs() {
   return (
-    <section className={styles.aboutUs}>
+    <section id = "AboutUsRe" className={styles.aboutUs}>
       <div className={styles.aboutContent}>
         <h2 className={styles.aboutTitle}>About Us</h2>
         <p className={styles.aboutDescription}>

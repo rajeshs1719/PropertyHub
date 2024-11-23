@@ -39,7 +39,7 @@ import React, { useState } from 'react';
 import styles from '../StyleContainer/ServicesCard.module.css';
 import Modal from './Modal';
 
-function ServiceCard({ title, description, logoSrc }) {
+function ServiceCard({ Service_title, description, logoSrc }) {
     const [showModal, setShowModal] = useState(false);
 
     const handleLearnMoreClick = () => {
@@ -55,9 +55,9 @@ function ServiceCard({ title, description, logoSrc }) {
             {/* Header section with logo and title */}
             <div className={styles.serviceflex}>
                 <div className={styles.serviceIcon}>
-                    <img src={logoSrc} alt={`${title} Icon`} className={styles.logo} />
+                    <img src={logoSrc} alt={`${Service_title} Icon`} className={styles.logo} />
                 </div>
-                <h4 className={styles.serviceTitle}>{title}</h4>
+                <h4 className={styles.serviceTitle}>{Service_title}</h4>
             </div>
 
             {/* Description */}
@@ -72,7 +72,7 @@ function ServiceCard({ title, description, logoSrc }) {
             {showModal && (
                 <Modal
                     onClose={handleCloseModal}
-                    title={title}
+                    Service_Card_title={Service_title}
                     description={description}
                     logoSrc={logoSrc}
                 />
