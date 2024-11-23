@@ -34,6 +34,7 @@ import Services from './Components/Services';
 import WhyChooseUs from './Components/WhyChooseUs';
 import styles from './StyleContainer/PropertyHub.module.css'
 import WhatsAppSticky from './Components/Whatsapp';
+import Review from './Components/Review';
 
 function PropertyHub() {
   return (
@@ -43,6 +44,7 @@ function PropertyHub() {
         <Hero />
         <Services />
         <WhyChooseUs />
+        <Review/>
         <AboutUs />
       </main>
       <Footer />

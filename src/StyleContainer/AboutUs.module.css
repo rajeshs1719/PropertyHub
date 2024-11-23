@@ -71,13 +71,13 @@
 
 
 .aboutTitle {
-  font: 700 40px/1.4 Merriweather, sans-serif;
+  font: 700 40px Lato;
   color: #0081CA;
   margin-bottom: 40px;
 }
 
 .aboutDescription {
-  font: 300 19px/27px Lato, sans-serif;
+  font: 400 19px/27px Merriweather;
   letter-spacing: 1px;
   margin-bottom: 20px;
   text-align: justify;

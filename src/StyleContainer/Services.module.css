@@ -105,11 +105,12 @@
 
 
 .servicesTitle {
-  font-family: Merriweather, sans-serif;
-  font-size: 50px;
   margin: 0;
   padding: 10px 0;
   color: #0081CA;
+  font-family: lato;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .servicesSubtitle {
