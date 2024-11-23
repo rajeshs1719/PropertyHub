@@ -1,0 +1,198 @@
+.aboutUs {
+  display: flex;
+  align-items: center;
+  max-width: 1081px; 
+  width: 100%; 
+  margin: 55px auto 0; 
+  padding: 0 20px; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+}
+
+@media (max-width: 768px) {
+  .aboutUs {
+    padding: 0 15px; 
+    margin: 40px auto 0; 
+    justify-content: center; 
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutUs {
+    padding: 0 10px; 
+    margin: 20px auto 0; 
+    flex-direction: column; 
+    justify-content: center; 
+  }
+}
+
+/* Laptop/Desktop (1024px and below) */
+@media (max-width: 1024px) {
+  .aboutUs {
+    padding: 0 25px; /* Adjust padding for laptops */
+    margin: 50px auto 0; /* Adjust margin for laptops */
+    justify-content: space-evenly; /* Evenly space items */
+  }
+}
+
+/* Large Desktop (above 1081px) */
+@media (min-width: 1082px) {
+  .aboutUs {
+    padding: 0 30px; /* Increase padding for large screens */
+    margin: 60px auto 0; /* Adjust margin for large screens */
+    justify-content: space-between; /* Space items as needed */
+  }
+}
+
+
+.aboutContent {
+  flex: 1; /* Allows the content to grow and fill available space */
+  margin-right: 20px; /* Provides space on the right */
+  box-sizing: border-box; /* Ensures padding and margins are included in the element's total width */
+}
+
+@media (max-width: 768px) {
+  .aboutContent {
+    margin-right: 15px; /* Reduce margin-right for tablet devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutContent {
+    margin-right: 10px; /* Reduce margin-right for mobile devices */
+  }
+}
+
+@media (max-width: 1024px) {
+  .aboutContent {
+    margin-right: 20px; /* Keep the default margin-right on smaller laptops */
+  }
+}
+
+
+.aboutTitle {
+  font: 700 40px/1.4 Merriweather, sans-serif;
+  margin-bottom: 40px;
+}
+
+.aboutDescription {
+  font: 300 19px/27px Lato, sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .aboutTitle {
+    font-size: 32px; /* Reduce font size for tablets */
+    margin-bottom: 30px; /* Adjust margin for tablets */
+  }
+
+  .aboutDescription {
+    font-size: 16px; /* Reduce font size for better readability */
+    letter-spacing: 0.5px; /* Slightly reduce letter-spacing */
+    margin-bottom: 15px; /* Adjust margin for tablets */
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  .aboutTitle {
+    font-size: 26px; /* Further reduce font size for mobile */
+    margin-bottom: 20px; /* Adjust margin for mobile */
+  }
+
+  .aboutDescription {
+    font-size: 14px; /* Further reduce font size for mobile */
+    letter-spacing: 0.5px; /* Adjust letter-spacing for small screens */
+    margin-bottom: 10px; /* Adjust margin for mobile */
+  }
+}
+
+/* Laptop/Desktop (1024px and below) */
+@media (max-width: 1024px) {
+  .aboutTitle {
+    font-size: 36px; /* Adjust font size for laptops */
+    margin-bottom: 35px; /* Adjust margin for laptops */
+  }
+
+  .aboutDescription {
+    font-size: 18px; /* Adjust font size for laptops */
+    letter-spacing: 1px; /* Keep letter-spacing consistent */
+    margin-bottom: 18px; /* Adjust margin for laptops */
+  }
+}
+
+
+.aboutImageWrapper {
+  flex: 1;
+  display: flex; /* Ensures flex layout for proper alignment */
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically */
+}
+
+.aboutImage {
+  aspect-ratio: 1.03; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image is fully visible */
+  width: 85%; /* Image width at 85% */
+  padding-left: 12%; /* Adjust padding to center the image */
+}
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .aboutImage {
+    width: 70%; /* Reduce width for tablets */
+    padding-left: 0; /* Remove left padding on tablets */
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  .aboutImage {
+    width: 90%; /* Increase width for mobile to take more space */
+    padding-left: 0; /* Remove left padding on mobile */
+  }
+}
+
+/* Laptop/Desktop (1024px and below) */
+@media (max-width: 1024px) {
+  .aboutImage {
+    width: 80%; /* Adjust width for laptop devices */
+    padding-left: 5%; /* Adjust padding for better centering */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+  .aboutUs {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .aboutContent {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutTitle {
+    font-size: 32px;
+  }
+
+  .aboutDescription {
+    font-size: 16px;
+  }
+}

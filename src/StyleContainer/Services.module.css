@@ -1,0 +1,176 @@
+.services {
+  margin: 79px auto 0;
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Chatgpt */
+.servicesHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logoImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.imageContainer {
+  position: relative;
+  /* Enable relative positioning for stacking */
+  width: 100%;
+
+  height: 300px;
+  /* Adjust the height to fit your content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundImage {
+  position: absolute;
+  /* Background image takes the full container */
+  width: 90%;
+  height: 90%;
+  z-index: 0;
+  /* Ensure it is at the back */
+}
+
+.logoImage {
+  position: relative;
+  z-index: 99;
+  max-width: 92%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  left: 40px;
+  bottom: 30px;
+
+}
+
+.logoImage1 {
+  position: relative;
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Chatgpt */
+
+/* .servicesHeader {
+  margin-bottom: 40px;
+} */
+
+
+
+
+.servicesDescription {
+  font-size: 22px;
+  margin-top: 37px;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+
+}
+
+@media (max-width: 991px) {
+  .services {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+
+  .servicesGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+.servicesTitle {
+  font-family: Merriweather, sans-serif;
+  font-size: 50px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.servicesSubtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 43px;
+  font-weight: 100;
+}
+
+.servicesDescription {
+  margin: 0;
+  padding: 0;
+}
+
+/* .services {
+  margin: 79px auto 0;
+  max-width: 1100px;
+  width: 100%;
+  padding: 0 20px;
+} */
+
+/* .servicesHeader {
+  margin-bottom: 40px;
+  text-align: center;
+} */
+
+/* .servicesDescription {
+  font-size: 22px;
+  margin-top: 37px;
+  text-align: center;
+} */
+
+/* .servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+} */
+
+/* Tablets */
+/* @media (max-width: 991px) {
+  .services {
+    margin-top: 40px;
+  }
+
+  .servicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+} */
+
+/* Phones */
+/* @media (max-width: 768px) {
+  .servicesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .servicesSubtitle {
+    font-size: 28px;
+  }
+
+
+  .servicesDescription {
+    font-size: 18px;
+  }
+} */

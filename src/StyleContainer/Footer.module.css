@@ -1,0 +1,162 @@
+.footer {
+  background-color: #d9d9d9;
+  padding: 30px 60px 40px; 
+  margin-top: 100px; 
+  z-index: 10000; 
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+.footerSection {
+  flex: 1;
+  min-width: 200px; 
+  margin-bottom: 20px; 
+}
+
+.footerTitle {
+  color: #1a1a1a;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+.footerList {
+  list-style-type: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.footerList a {
+  text-decoration: none; 
+  color: #000;
+  line-height: 30px; 
+}
+
+.footerLink {
+  color: #000;
+  font: 400 15px/1.9 Roboto, sans-serif;
+  text-decoration: none; 
+}
+
+.address {
+  color: #000;
+  font: 400 15px/1.9 Roboto, sans-serif;
+  font-style: normal; 
+}
+
+.footerSection ul li {
+  list-style-type: disc; 
+  line-height: 30px; 
+}
+
+.footerSection ul li a {
+  text-decoration: none; 
+  color: #000; 
+}
+
+.displayFlex {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.column {
+  width: 45%; 
+  margin-bottom: 20px; 
+}
+
+.column li {
+  margin-bottom: 10px; 
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 40px 30px;
+    margin-top: 80px; 
+  }
+
+  .footerContent {
+    justify-content: center; 
+  }
+
+  .footerSection {
+    flex: 1 1 45%; 
+    margin-bottom: 20px; 
+  }
+
+  .footerTitle {
+    font-size: 22px; 
+  }
+
+  .column {
+    width: 100%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 15px 20px 20px;
+    margin-top: 60px; 
+  }
+
+  .footerContent {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .footerSection {
+    flex: 1 1 100%; 
+    margin-bottom: 10px; 
+  }
+
+  .footerTitle {
+    font-size: 18px; 
+  }
+
+  .column {
+    width: 100%; 
+  }
+
+  .footerList a {
+    font-size: 14px; 
+    line-height: 25px; 
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 25px 50px 35px; 
+    margin-top: 90px; 
+  }
+
+  .footerContent {
+    justify-content: space-between; 
+  }
+
+  .footerSection {
+    flex: 1 1 45%; 
+  }
+
+  .footerTitle {
+    font-size: 24px; 
+  }
+}
+.footerSection ul li a:hover {
+  color: #007bff; 
+  padding: 5px; 
+  transition: all 0.3s ease; 
+}
+
+.footerSection ul li:hover {
+  transition: background-color 0.3s ease; 
+}
+
+#footerListAlign{
+  margin-left: 10%;
+}

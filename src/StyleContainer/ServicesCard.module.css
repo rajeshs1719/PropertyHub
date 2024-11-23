@@ -1,0 +1,93 @@
+.serviceCard {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  height: 255px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.serviceIcon {
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #3b3b3b;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.serviceTitle {
+  font: 20px/25px Merriweather, sans-serif;
+  margin: 10px;
+}
+
+.serviceflex{
+  display: flex;
+}
+
+.serviceDescription {
+  font: 400 11px/1.9 Lato, sans-serif;
+  letter-spacing: 1px;
+  flex-grow: 1;
+}
+
+.learnMore {
+  color: #424242;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+
+.learnMore:hover {
+  transform: scale(1.05);
+  /* Slight zoom effect on hover */
+}
+
+
+.servicesTitle {
+  font-family: Merriweather, sans-serif;
+  margin-bottom: 20px;
+  font-size: 50px;
+  border: 2px solid red;
+}
+
+.serviceDescription {
+  font: 400 14px/1.9 Lato, sans-serif;
+  /* Adjust font size */
+  letter-spacing: 1px;
+  flex-grow: 1;
+}
+
+.learnMore {
+  color: #424242;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Phones */
+@media (max-width: 768px) {
+  .serviceTitle {
+    font-size: 18px;
+  }
+
+  .serviceDescription {
+    font-size: 12px;
+  }
+
+  .learnMore {
+    font-size: 14px;
+  }
+}
+
+.logo{
+  height: 50px;
+}
