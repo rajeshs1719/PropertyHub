@@ -22,28 +22,28 @@
 
 .reviews {
   display: flex;
-  gap: 28px; /* Adds space between review cards */
-  justify-content: center; /* Centers the review cards horizontally */
-  flex-wrap: wrap; /* Ensures cards wrap to the next line on smaller screens */
+  gap: 20px; 
+  justify-content: center; 
+  flex-wrap: wrap; 
 }
 
 .reviewCard {
   background: #fff;
   box-shadow: -3px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 47px;
-  width: 315px;
-  height: 190px;
+  width: 320px;
+  height: 170px;
   padding: 20px;
   text-align: left;
   position: relative;
   box-shadow: -3px 4px 4px rgba(0, 0, 0,0.25);
-  margin: 10px; /* Adds space around each card */
+  margin: 10px;
 }
 
 .reviewHeader {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin: -10px 10px;
 }
 
 .avatar {
@@ -60,9 +60,9 @@
 }
 
 .rating {
-  position: absolute; /* Positions stars at the top-right */
-  top: 50px;          /* Adjusts the vertical position */
-  right: 15px;        /* Adjusts the horizontal position */
+  position: absolute; 
+  top: 40px;          
+  right: 25px;        
   color: #f8c03e;
   font-size: 1.2rem;
   font-family: lato;
@@ -82,4 +82,16 @@
   line-height: 1.5;
   font-family: Merriweather;
   font-weight: 400;
+}
+
+
+@media (max-width: 500px){
+  .rating{
+    font-size: 1rem;
+    margin-top: -10px;
+  }
+  .name{
+    margin: 20px -10px;
+  }
+
 }

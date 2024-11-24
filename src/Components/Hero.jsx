@@ -16,9 +16,9 @@ function Hero() {
             Welcome to Property Hub, where your property needs are met with care, expertise, and personalized service. From registration to loans and everything in between, we're dedicated to making your property experience effortless and rewarding.
           </p>
         </div>
-        <div className={styles.heroImageWrapper}>
+        {/* <div className={styles.heroImageWrapper}>
           <img src={VillaImage} alt="Property Hub Expert" className={styles.heroImage} />
-        </div>
+        </div> */}
       </div>
 
     </section>

@@ -1,18 +1,15 @@
-import React, { useState }from 'react';
+import React from 'react';
 import ServiceCard from './ServiceCard';
 import styles from '../StyleContainer/Services.module.css';
-import DiscussingImage from '../Assessts/Discussing.png'
 import PropertyRegi from '../Assessts/realestate.png'
 import Loans from '../Assessts/wallet.png'
 import BuildingLicence from '../Assessts/certificate.png'
 import KhathaChange from '../Assessts/document.png'
 import eSwathu from '../Assessts/collectibles.png'
 import SiteMerger from '../Assessts/innerjoinright.png'
-import ModalPop from './Modal.jsx'
-import BgBackground from '../Assessts/BuildingBg.jpg'
+import ServiceImg from '../Assessts/ServiceImage.png'
 
 function Services() {
-
   const services = [
     {
       title: "Property Registration",
@@ -118,11 +115,7 @@ function Services() {
 
         {/* Right Image */}
         <div className={styles.imageContainer}>
-          <div className={styles.backgroundImage}>
-            <img src={BgBackground} alt="Discussing Property Hub" className={styles.logoImage} />
-          </div>
-
-          <img src={DiscussingImage} alt="Discussing Property Hub" className={styles.logoImage1} />
+          <img src={ServiceImg} alt="Discussing Property Hub" className={styles.logoImage} />
         </div>
       </div>
 
@@ -132,11 +125,6 @@ function Services() {
           <ServiceCard key={index} Service_title={service.title} description={service.description} logoSrc={service.logoScr} />
         ))}
       </div>
-      {/* <div> */}
-        {/* {ServiceDetails.map((ServiceDetails, index) => (
-          <ModalPop key={index} title={ServiceDetails.title} description={ServiceDetails.description} logoSrc={ServiceDetails.logoScr} />
-        ))}
-      </div> */}
     </section>
 
 

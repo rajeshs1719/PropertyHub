@@ -1,5 +1,4 @@
 import React from 'react';
-// import styles from '..//AboutUs.module.css';
 import styles from '../StyleContainer/AboutUs.module.css';
 import AboutUsImg from '../Assessts/AboutUs.png'
 

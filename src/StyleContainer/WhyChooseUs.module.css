@@ -1,12 +1,9 @@
 .whyChooseUs {
   background-color: #FCBD21;
-  /* padding: 32px 80px; */
   padding: 10px;
   margin-top: 84px;
   text-align: center;
   height: auto;
-  /* width: 100%; */
-  border: 5px solid rgb(0, 0, 0);
 }
 
 .title {
@@ -32,19 +29,18 @@
 .reasonsGrid {
   display: flex;
   gap: 50px;
-  justify-content: space-between;
   margin-top: 36px;
-  border: 2px solid red;
   height: auto;
   width: 100%;
   padding: 5px;
   flex-wrap: wrap;
+  justify-content: center;
 
 }
 
 .reasonCard {
   text-align: center;
-  max-width: 290px;
+  max-width: 250px;
 }
 
 .reasonIcon {
@@ -67,30 +63,4 @@
   font-family: Merriweather, sans-serif;
   font-size: 17px;
   font-weight: 400;
-  /* letter-spacing: 3px; */
 }
-
-/* @media (max-width: 991px) {
-  .whyChooseUs {
-    margin-top: 40px;
-    padding: 32px 20px;
-  }
-
-  .reasonsGrid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .reasonsGrid {
-    grid-template-columns: 1fr;
-  }
-
-  .title {
-    font-size: 28px;
-  }
-
-  .description {
-    font-size: 16px;
-  }
-} */

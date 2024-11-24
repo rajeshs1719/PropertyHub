@@ -37,6 +37,7 @@
   text-decoration: none; 
   color: #000;
   line-height: 30px; 
+  font-size: 18px;
 }
 
 .footerLink {
@@ -97,6 +98,8 @@
 
   .column {
     width: 100%; 
+    border: 2px solid red;
+    margin: 10px;
   }
 }
 
@@ -125,7 +128,7 @@
   }
 
   .footerList a {
-    font-size: 14px; 
+    font-size: 20px; 
     line-height: 25px; 
   }
 }
