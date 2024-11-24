@@ -98,7 +98,6 @@
 
   .column {
     width: 100%; 
-    border: 2px solid red;
     margin: 10px;
   }
 }

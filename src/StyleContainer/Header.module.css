@@ -1,4 +1,3 @@
-
 .header {
   background-color: #ffffff;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -40,6 +39,7 @@
   font-weight: bold;
   transition: all 0.3s ease;
 }
+
 .navLink {
   color: #000;
   font-weight: bold;
@@ -55,7 +55,7 @@
 
 /* Hamburger/close icon */
 .menuIcon {
-  display: none; /* Hidden by default for larger screens */
+  display: none;
   flex-direction: column;
   cursor: pointer;
   z-index: 11000;
@@ -86,7 +86,8 @@
 
 /* Navigation container */
 .navigation {
-  display: flex; /* Default for larger screens */
+  display: flex;
+  /* Default for larger screens */
   gap: 40px;
   align-items: center;
   transition: all 0.3s ease;
@@ -106,35 +107,24 @@
 }
 
 /* Mobile menu */
-.menuOpen {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  right: 0;
-  background: white;
-  width: 100%;
-  height: 100vh;
-  padding: 50px 20px;
-  z-index: 9999;
-  align-items: center;
-  gap: 20px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
+
 
 @media (max-width: 768px) {
   .menuIcon {
-    display: flex; /* Show hamburger/close button on small screens */
+    display: flex;
+    /* Show hamburger/close button on small screens */
     justify-content: flex-end;
   }
 
   .navigation {
-    display: none; /* Hide the menu by default */
+    display: none;
+    /* Hide the menu by default */
     margin: 0;
   }
 
   .menuOpen {
-    display: flex; /* Display menu when open */
+    display: flex;
+    /* Display menu when open */
   }
 
   .logo {
@@ -147,5 +137,21 @@
   .logoText {
     font-size: 25px;
     margin: 0 -20px;
+  }
+
+  .menuOpen {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: white;
+    width: 100%;
+    height: 100vh;
+    padding: 50px 20px;
+    z-index: 9999;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
 }

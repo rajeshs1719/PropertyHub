@@ -19,7 +19,7 @@ function Modal({ onClose, Service_Card_title, description, logoSrc }) {
         {
             title: "Property Registration",
             description: "Simplify property transactions with our expert assistance. From document verification to post-registration formalities, we’ve got you covered.",
-            heading: "Document Verification",
+            List4: "Document Verification",
             List1: "Stamp Duty Calculation",
             List2: "Registration Process",
             List3: "Post-Registration Services",
@@ -28,7 +28,7 @@ function Modal({ onClose, Service_Card_title, description, logoSrc }) {
         {
             title: "Loans",
             description: "Access competitive property loans with ease. Our team ensures a smooth process to help you secure your dream property.",
-            heading: "Document Verification",
+            List4: "Approval Follow-up",
             List1: "Loan Eligibility Check",
             List2: "Interest Rate Comparisons",
             List3: "Application Assistance",
@@ -37,7 +37,7 @@ function Modal({ onClose, Service_Card_title, description, logoSrc }) {
         {
             title: "Building Licence",
             description: "Navigate the building licence process effortlessly with our step-by-step guidance, ensuring compliance every step of the way.",
-            heading: "Document Verification",
+            List4: "Document Preparation",
             List1: "Regulatory Approvals",
             List2: "Plan Sanctioning",
             List3: "Licence Issuance",
@@ -46,7 +46,7 @@ function Modal({ onClose, Service_Card_title, description, logoSrc }) {
         {
             title: "Khatha Change",
             description: "Update your property records seamlessly. We assist in reflecting ownership changes for taxes and utilities.",
-            heading: "Document Verification",
+            List4: "Application Filing",
             List1: "Ownership Verification",
             List2: "Encumbrance Certificate Assistance",
             List3: "Fraud Prevention",
@@ -55,19 +55,19 @@ function Modal({ onClose, Service_Card_title, description, logoSrc }) {
         {
             title: "e - Swathu",
             description: "Combine or divide property plots hassle-free. We help you align your property structure with your needs.",
-            heading: "Document Verification",
-            List1: "Legal Documentation",
-            List2: "Approval Assistance",
-            List3: "Process Finalization",
+            List1: "Digital Record Check",
+            List2: "Ownership Verification",
+            List3: "Encumbrance Certificate Assistance",
+            List4: "Fraud Prevention",
             logoScr: eSwathu
         },
         {
             title: "Site Merger / Bifurcation",
             description: "Access competitive property loans with ease. Our team ensures a smooth process to help you secure your dream property.",
-            heading: "Document Verification",
-            List1: "Loan Eligibility Check",
-            List2: "Interest Rate Comparisons",
-            List3: "Application Assistance",
+            List4: "Site Evaluation",
+            List1: "Legal Documentation",
+            List2: "Approval Assistance",
+            List3: "Process Finalization",
             logoScr: SiteMerger
         },
     ]
@@ -86,11 +86,12 @@ function Modal({ onClose, Service_Card_title, description, logoSrc }) {
                         <h1 className={styles.ModalTitle}>{Service_Card_title}</h1>
                     </div>
                     <p className={styles.ModalDiscription}>{Service_Details.find(item => item.title === Service_Card_title).description}</p>
-                    <h2>Document Verification</h2>
+                    <h3>Our Services</h3>
                     <ul>
                         <li>{Service_Details.find(item => item.title === Service_Card_title).List1}</li>
                         <li>{Service_Details.find(item => item.title === Service_Card_title).List2}</li>
                         <li>{Service_Details.find(item => item.title === Service_Card_title).List3}</li>
+                        <li>{Service_Details.find(item => item.title === Service_Card_title).List4}</li>
                     </ul>
                     <button className={styles.ContactUs}> <a href='https://wa.me/919611866449'>Contact Us</a></button>
                 </div>

@@ -32,6 +32,7 @@ function Header() {
         <a href="#home" className={styles.navLink} onClick={toggleMenu}>Home</a>
         <a href="#AboutUsRe" className={styles.navLink} onClick={toggleMenu}>About Us</a>
         <a href="#service" className={styles.navLink} onClick={toggleMenu}>Services</a>
+        <a href="https://wa.me/919611866449" className={styles.navLink} onClick={toggleMenu}>Contact Us</a>
       </nav>
     </header>
   );
