@@ -104,11 +104,13 @@
   .aboutUs {
     padding: 0 45px; 
     justify-content: center; 
-    width: 90%;
+    width: 85%;
+    /* max-width: 300px; */
+    margin: 0 10px;
   }
   .aboutContent {
-    margin: 0 -35px; 
-
+    margin: 0 -45px; 
+    padding: 0 50px 0 0;
   }
 
   .aboutTitle {
