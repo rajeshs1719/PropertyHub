@@ -84,16 +84,13 @@
   top: 5px;
 }
 
-/* Navigation container */
 .navigation {
   display: flex;
-  /* Default for larger screens */
   gap: 40px;
   align-items: center;
   transition: all 0.3s ease;
 }
 
-/* Individual navigation links */
 .navLink {
   color: #000;
   font-weight: bold;
@@ -106,19 +103,16 @@
   color: #0081CA;
 }
 
-/* Mobile menu */
 
 
 @media (max-width: 768px) {
   .menuIcon {
     display: flex;
-    /* Show hamburger/close button on small screens */
     justify-content: flex-end;
   }
 
   .navigation {
     display: none;
-    /* Hide the menu by default */
     margin: 0;
   }
 
