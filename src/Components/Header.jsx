@@ -29,10 +29,10 @@ function Header() {
         )}
       </div>
       <nav className={`${styles.navigation} ${isMenuOpen ? styles.menuOpen : ''}`}>
-        <a href="#home" className={styles.navLink} onClick={toggleMenu}>Home</a>
-        <a href="#AboutUsRe" className={styles.navLink} onClick={toggleMenu}>About Us</a>
+        <a href="/" className={styles.navLink} onClick={toggleMenu}>Home</a>
+        <a href="/aboutus" className={styles.navLink} onClick={toggleMenu}>About Us</a>
         <a href="#service" className={styles.navLink} onClick={toggleMenu}>Services</a>
-        <a href="https://wa.me/919611866449" className={styles.navLink} onClick={toggleMenu}>Contact Us</a>
+        <a href="/ContactUs" className={styles.navLink} onClick={toggleMenu}>Contact Us</a>
       </nav>
     </header>
   );

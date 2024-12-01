@@ -1,0 +1,103 @@
+.ContactUs {
+    margin: 20px 20px -40px 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ContactContent {
+    width: 190%;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+}
+
+
+.header {
+    color: #149CEA;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.subHeader {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contactItems {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+.icon img {
+    font-size: 30px;
+    height: 50px;
+}
+
+.title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info {
+    margin: 0;
+    font-size: 16px;
+}
+
+.contactItems a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.ContactImg img{
+    height: 450px;
+    margin: 50px;
+}
+
+@media (max-width: 1024px){
+    .ContactImg img{
+        height: 390px;
+        margin: 50px;
+    }
+    .ContactImg{
+    
+    margin-top: 70px;
+    }
+}
+@media (max-width: 780px){
+    .ContactImg img{
+        height: 320px;
+        margin: -30px 0 0 25px ;
+    }
+    .ContactImg{
+        align-items: center;
+    }
+    .ContactUs{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .ContactContent{
+        width: 100%;
+        margin-left: -10px;
+    }
+}

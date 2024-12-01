@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from '../StyleContainer/Footer.module.css';
-import Location from '../Assessts/location.png'
-import Phone from '../Assessts/Phone.png'
-import Mail from '../Assessts/Mail.png'
-import WhatsApp from '../Assessts/whatsapp.png'
+import Location from '../Assessts/WLocation.png'
+import Phone from '../Assessts/WPhone.png'
+import Mail from '../Assessts/WMail.png'
+import WhatsApp from '../Assessts/WWhatsapp.png'
 import Building from '../Assessts/Buildings.png'
 
 function Footer() {
