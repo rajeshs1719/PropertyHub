@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from '../StyleContainer/Header.module.css';
 import Logo from '../Assessts/Logo.png';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -12,7 +13,9 @@ function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <img src={Logo} alt="PropertyHub Logo" className={styles.logoImage} />
+        {/* <img src={Logo} alt="PropertyHub Logo" className={styles.logoImage} /> */}
+        
+        <Link to="/"><img src={Logo} alt="PropertyHub Logo" className={styles.logoImage} /></Link>
         <span className={styles.logoText}>PropertyHub</span>
       </div>
       <div className={styles.menuIcon} onClick={toggleMenu}>
@@ -29,10 +32,10 @@ function Header() {
         )}
       </div>
       <nav className={`${styles.navigation} ${isMenuOpen ? styles.menuOpen : ''}`}>
-        <a href="/" className={styles.navLink} onClick={toggleMenu}>Home</a>
-        <a href="/aboutus" className={styles.navLink} onClick={toggleMenu}>About Us</a>
-        <a href="#service" className={styles.navLink} onClick={toggleMenu}>Services</a>
-        <a href="/ContactUs" className={styles.navLink} onClick={toggleMenu}>Contact Us</a>
+        <Link to="/" className={styles.navLink} onClick={toggleMenu}>Home</Link>
+        <Link to="/Service" className={styles.navLink} onClick={toggleMenu}>Services</Link>
+        <Link to="/aboutus" className={styles.navLink} onClick={toggleMenu}>About Us</Link>
+        <Link to="/ContactUs" className={styles.navLink} onClick={toggleMenu}>Contact Us</Link>
       </nav>
     </header>
   );

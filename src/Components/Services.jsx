@@ -1,5 +1,5 @@
-import React from 'react';
-import ServiceCard from './ServiceCard';
+import React, { useState } from 'react';
+// import ServiceCard from './ServiceCard';
 import styles from '../StyleContainer/Services.module.css';
 import PropertyRegi from '../Assessts/realestate.png'
 import Loans from '../Assessts/wallet.png'
@@ -7,7 +7,8 @@ import BuildingLicence from '../Assessts/certificate.png'
 import KhathaChange from '../Assessts/document.png'
 import eSwathu from '../Assessts/collectibles.png'
 import SiteMerger from '../Assessts/innerjoinright.png'
-import ServiceImg from '../Assessts/ServiceImage.png'
+// import ServiceImg from '../Assessts/ServiceImage.png'
+import ServiceDetails from './ServiceDetails';
 
 function Services() {
   const services = [
@@ -43,92 +44,36 @@ function Services() {
     },
   ];
 
-  const ServiceDetails = [
-    {
-      title: "Property Registration",
+  const Service_list = ['Property Registation', 'Loans', 'BuildingLicence', 'KhathaChange', 'eSwathu', 'SiteMergerBifurcation']
 
-      heading: "Document Verification",
-      List1: "Stamp Duty Calculation",
-      List2: "Registration Process",
-      List3: "Post-Registration Services",
-      logoScr: PropertyRegi
-    },
-    {
-      title: "Loans",
-      description: "Access competitive property loans with ease. Our team ensures a smooth process to help you secure your dream property.",
-      heading: "Document Verification",
-      List1: "Loan Eligibility Check",
-      List2: "Interest Rate Comparisons",
-      List3: "Application Assistance",
-      logoScr: Loans
-    },
-    {
-      title: "Building Licence",
-      description: "Navigate the building licence process effortlessly with our step-by-step guidance, ensuring compliance every step of the way.",
-      heading: "Document Verification",
-      List1: "Regulatory Approvals",
-      List2: "Plan Sanctioning",
-      List3: "Licence Issuance",
-      logoScr: BuildingLicence
-    },
-    {
-      title: "Khatha Change",
-      description: "Update your property records seamlessly. We assist in reflecting ownership changes for taxes and utilities.",
-      heading: "Document Verification",
-      List1: "Ownership Verification",
-      List2: "Encumbrance Certificate Assistance",
-      List3: "Fraud Prevention",
-      logoScr: KhathaChange
-    },
-    {
-      title: "e - Swathu",
-      description: "Combine or divide property plots hassle-free. We help you align your property structure with your needs.",
-      heading: "Document Verification",
-      List1: "Legal Documentation",
-      List2: "Approval Assistance",
-      List3: "Process Finalization",
-      logoScr: eSwathu
-    },
-    {
-      title: "Site Merger / Bifurcation",
-      description: "Access competitive property loans with ease. Our team ensures a smooth process to help you secure your dream property.",
-      heading: "Document Verification",
-      List1: "Loan Eligibility Check",
-      List2: "Interest Rate Comparisons",
-      List3: "Application Assistance",
-      logoScr: SiteMerger
-    },
-  ]
+  const [index, setIndex] = useState(0);
+  const [isActive, UpdateActive] = useState(false);
+ 
 
-  return (
-    <section id="service" className={styles.services}>
-      <div className={styles.servicesHeader}>
-
-        {/* Left Header Content */}
-        <div className={styles.headerContent}>
-          <h2 className={styles.servicesTitle}>Our Services</h2>
-          <h3 className={styles.servicesSubtitle}>Expert Solutions for Every Property Milestone</h3>
-          <p className={styles.servicesDescription}>
-            At Property Hub, we offer a range of trusted services, designed to make your property journey smooth, efficient, and stress-free.
-          </p>
-        </div>
-
-        {/* Right Image */}
-        <div className={styles.imageContainer}>
-          <img src={ServiceImg} alt="Discussing Property Hub" className={styles.logoImage} />
-        </div>
-      </div>
-
-      {/* Service Cards Grid */}
-      <div className={styles.servicesGrid}>
-        {services.map((service, index) => (
-          <ServiceCard key={index} Service_title={service.title} description={service.description} logoSrc={service.logoScr} />
-        ))}
-      </div>
-    </section>
-
-
-  );
+return (
+  <div className={styles.Content}>
+    <h1>Services</h1>
+    <div className={styles.ListOfService}>
+      <ul className={styles.ListofImg}>
+        <li><a onClick={() => setIndex(0)} href="#"><img src={PropertyRegi} alt="" /></a>Property Registration</li>
+        <li><a onClick={() => setIndex(1)}><img src={Loans} alt="" /></a>Loans</li>
+        <li><a onClick={() => setIndex(2)}><img src={BuildingLicence} alt="" /></a>Building Licence</li>
+        <li><a onClick={() => setIndex(3)}><img src={KhathaChange} alt="" /></a>Khatha Change</li>
+        <li><a onClick={() => setIndex(4)}><img src={eSwathu} alt="" /></a>e-Swathu</li>
+        <li><a onClick={() => setIndex(5)}><img src={SiteMerger} alt="" /></a>Site Merger</li>
+      </ul>
+    </div>
+    <ServiceDetails serviceNumber={index} />
+  </div >
+);
 }
 
 export default Services;
+
+
+
+
+
+
+
+

@@ -10,6 +10,8 @@ import Review from './Components/Review';
 import WhatsAppSticky from './Components/Whatsapp';
 import styles from './StyleContainer/PropertyHub.module.css';
 import Contact from './Components/Contact';
+import ServiceDetails from './Components/ServiceDetails';
+import LService from './Components/LService';
 
 function PropertyHub() {
   return (
@@ -22,7 +24,7 @@ function PropertyHub() {
             element={
               <>
                 <Hero />
-                <Services />
+                <LService />
                 <WhyChooseUs />
                 <Review />
               </>
@@ -30,6 +32,7 @@ function PropertyHub() {
           />
           <Route path="/Aboutus" element={<AboutUs />} />
           <Route path="/ContactUs" element={<Contact />} />
+          <Route path="/Service" element={<Services/>} />
         </Routes>
         <Footer />
         <WhatsAppSticky />

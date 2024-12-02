@@ -35,20 +35,20 @@
 
 
 
-import React, { useState } from 'react';
+import React from 'react';
 import styles from '../StyleContainer/ServicesCard.module.css';
-import Modal from './Modal';
+// import Modal from './Modal';
 
 function ServiceCard({ Service_title, description, logoSrc }) {
-    const [showModal, setShowModal] = useState(false);
+    // const [showModal, setShowModal] = useState(false);
 
-    const handleLearnMoreClick = () => {
-        setShowModal(true);
-    };
+    // const handleLearnMoreClick = () => {
+    //     setShowModal(true);
+    // };
 
-    const handleCloseModal = () => {
-        setShowModal(false);
-    };
+    // const handleCloseModal = () => {
+    //     setShowModal(false);
+    // };
 
     return (
         <div className={styles.serviceCard}>
@@ -59,7 +59,7 @@ function ServiceCard({ Service_title, description, logoSrc }) {
                 <h4 className={styles.serviceTitle}>{Service_title}</h4>
             </div>
             <p className={styles.serviceDescription}>{description}</p>
-            <a href="#learn-more" onClick={handleLearnMoreClick} className={styles.learnMore}>
+            {/* <a href="#learn-more" onClick={handleLearnMoreClick} className={styles.learnMore}>
                 Learn more &gt;
             </a>
             {showModal && (
@@ -69,7 +69,7 @@ function ServiceCard({ Service_title, description, logoSrc }) {
                     description={description}
                     logoSrc={logoSrc}
                 />
-            )}
+            )} */}
         </div>
     );
 }

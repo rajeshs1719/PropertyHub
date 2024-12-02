@@ -1,0 +1,110 @@
+.ServiceDetailFlex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ServiceOffer h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+    color: #149CEA;
+    font-family: Merriweather;
+}
+
+.ServiceOffer {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h2 {
+    color: #149CEA;
+    margin-left: 40px;
+    font-size: 35px;
+    font-family: Merriweather;
+}
+
+.title h3 {
+    color: black;
+    margin: -10px 0 0 40px;
+    font-size: 28px;
+    font-family: Merriweather;
+}
+
+.title p {
+    color: black;
+    margin: 15px 0 20px 40px;
+    font-size: 25px;
+    font-family: Lato;
+}
+
+.ServiceDetailFlex img {
+    height: 350px;
+    width: 500px;
+    padding: 10px 50px 10px 50px;
+}
+
+.ServiceOffer ul {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: calc(100%-73);
+    font-family: Lato;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+.ServiceOffer ul li {
+    font-family: Lato;
+    text-align: center;
+    font-size: 30px;
+    line-height: 65px;
+    /* list-style: url('../Assessts/SortLeft.png'); */
+    list-style: none;
+    padding-left: 20px;
+}
+
+.ServiceOffer ul li img {
+
+    border: 2px solid red;
+    height: 50px;
+    width: 73px;
+}
+
+
+.ContactUs {
+    display: flex;
+    padding: 0.75rem 1.25rem;
+    margin: auto;
+    margin-top: 1rem;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 188px;
+    max-width: 500px;
+    font-weight: 500;
+    background-color: #FCBD21;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    height: 50px;
+    box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+
+.ContactUs a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.Conlusion h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Lato;
+}
