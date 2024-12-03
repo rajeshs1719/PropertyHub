@@ -138,6 +138,7 @@
 
     .ServiceOffer h2 {
         font-size: 30px;
+
     }
 
     .ServiceOffer ul li {
@@ -184,12 +185,13 @@
     
     .ServiceOffer h2 {
         font-size: 30px;
+        text-align: center;
     }
 
     .ServiceOffer ul li {
         text-align: left;
         font-size: 25px;
         margin-top: -10px;
-        margin-left: -55px;
+        margin-left: -5px;
     }
 }
