@@ -7,7 +7,7 @@
 }
 
 .ServiceOffer h2 {
-    text-align: center;
+    text-align: left;
     font-size: 35px;
     margin-top: 0;
     color: #149CEA;
@@ -20,7 +20,7 @@
 
 .title h2 {
     color: #149CEA;
-    margin-left: 40px;
+    margin-left: 65px;
     margin-top: 40px;
     font-size: 40px;
     font-family: Merriweather;
@@ -31,11 +31,12 @@
     margin: -10px 0 0 40px;
     font-size: 25px;
     font-family: Merriweather;
+    margin-left: 65px;
 }
 
 .title p {
     color: black;
-    margin: 15px 0 20px 40px;
+    margin: 15px 0 20px 65px;
     font-size: 23px;
     font-family: Lato;
 }
@@ -60,8 +61,8 @@
     font-size: 25px;
     line-height: 65px;
     list-style: none;
-    padding-left: 50px;
-
+    padding-left: 10px;
+    list-style-type: disc;
 }
 
 
@@ -89,8 +90,9 @@
 
 .ContactUs a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .Conlusion h3 {

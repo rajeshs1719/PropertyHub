@@ -13,7 +13,7 @@ function Services() {
   const [index, setIndex] = useState(0);
  
 return (
-  <div className={styles.Content}>
+  <div id='learn-more' className={styles.Content}>
     <h1>Services</h1>
     <div className={styles.ListOfService}>
       <ul className={styles.ListofImg}>

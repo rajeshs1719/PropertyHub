@@ -61,8 +61,11 @@ function ServiceCard({ Service_title, description, logoSrc }) {
             <p className={styles.serviceDescription}>{description}</p>
             {/* <a href="#learn-more" onClick={handleLearnMoreClick} className={styles.learnMore}>
                 Learn more &gt;
-            </a>
-            {showModal && (
+            </a> */}
+            {/* <a href="#learn-more" className={styles.learnMore}>
+                Learn more &gt;
+            </a> */}
+             {/*{showModal && (
                 <Modal
                     onClose={handleCloseModal}
                     Service_Card_title={Service_title}
