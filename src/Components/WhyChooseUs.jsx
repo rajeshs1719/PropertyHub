@@ -1,5 +1,4 @@
 import React from 'react';
-// import styles from './WhyChooseUs.module.css';
 import styles from '../StyleContainer/WhyChooseUs.module.css';
 import ReliableLogo from '../Assessts/ReliableServices.png'
 import GuidanceLogo from '../Assessts/Guidance.png'

@@ -7,21 +7,19 @@ const PropertyRegistation = {
         'Document Accuracy',
         'Expert Guidance',
         'Post-Registration Help'
-    ],
-    'Image':"../Assessts/1propertyregistration.jpg"
+    ]
 }
 
 const Loans = {
     'Title': 'Loans',
-    'Tagline': 'Effortless Property Registration Made Simple.',
+    'Tagline': ' Secure Competitive Property Loans with Ease.',
     'Description': 'Streamline your property registration with our expert assistance. From documentation to final approval, we ensure a hassle-free and efficient process tailored to your needs.',
     'WhatWeOffer': [
         "Complete Assistance",
         'Document Accuracy',
         'Expert Guidance',
         'Post-Registration Help'
-    ],
-    'Image':'../Assessts/2loans.jpg'
+    ]
 }
 const BuildingLicence = {
     'Title': 'Building Licence',
@@ -32,8 +30,7 @@ const BuildingLicence = {
         'Accurate Documentation',
         'Expert Advice',
         'Compliance Guaranteed'
-    ],
-    'Image':'../Assessts/Discussing.png'
+    ]
 }
 const KhathaChange = {
     'Title': 'Khatha Change',
@@ -44,8 +41,7 @@ const KhathaChange = {
         'Document Precision',
         'Time-Saving Process',
         'Reliable Support'
-    ],
-    'Image':'../Assessts/Discussing.png'
+    ]
 }
 const eSwathu = {
     'Title': 'e-Swathu',
@@ -56,8 +52,7 @@ const eSwathu = {
         'Fraud Prevention',
         'Guided Assistance',
         'Quick Access'
-    ],
-    'Image':'../Assessts/Discussing.png'
+    ]
 }
 const SiteMergerBifurcation = {
     'Title': 'Site Merger / Bifurcation',
@@ -68,8 +63,7 @@ const SiteMergerBifurcation = {
         'Legal Compliance',
         'Professional Guidance',
         'Clear Outcomes'
-    ],
-    'Image':'../Assessts/Discussing.png'
+    ]
 }
 const Data = [PropertyRegistation,Loans,BuildingLicence,KhathaChange,eSwathu,SiteMergerBifurcation]
 

@@ -1,8 +1,6 @@
 import React from 'react'
 import ServiceInfo from './ServiceInfo.js'
-import Discussing from '../Assessts/Discussing.png'
 import style from '../StyleContainer/ServiceDetails.module.css'
-
 import PR from '../Assessts/1propertyregistration.jpg'
 import Loans from '../Assessts/2loans.jpg'
 import BL from '../Assessts/3buildinglicense.jpg'
@@ -13,7 +11,6 @@ import SMB from '../Assessts/6sitemerger.jpg'
 
 function ServiceDetails({ serviceNumber }) {
   console.log(ServiceInfo[0].Tagline)
-const IPR = ServiceInfo[serviceNumber].Image;
 const ImgList = [PR,Loans,BL,KC,ES,SMB]
   return (
     <div>
